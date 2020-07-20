@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  jaiwebapp:
+    image: nginx:jaiwebv001
+    build: git@github.com:jainendrak/devsecops-repo1.git
+    container_name: jaiwebser2
+    ports:
+     - "11235:80"
