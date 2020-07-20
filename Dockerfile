@@ -1,4 +1,4 @@
-FROM  nginx  #  pulling image  from docker  hub 
+FROM  nginx   
 MAINTAINER   ashutoshh@linux.com  , 9509957594
 COPY  hello-devops.html   /usr/share/nginx/html/index.html
 COPY  devops.png   /usr/share/nginx/html/ #  all web server  are using index.html as default page 
